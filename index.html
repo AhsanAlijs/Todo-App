@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do App | .....</title>
     <script src="app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="meen">
+    <!-- <div class="meen">
         <div class="main">
             <h2 class="">To Do App</h2>
             <div>
@@ -31,7 +34,28 @@
             <p>@ Develop and Desgine By <a href="https://github.com/Ahsan-ali001">Ahsan Ali</a></p>
 
         </div>
-    </div>
+    </div> -->
+
+
+    <div class="main-div">
+        <div class="main">
+            <h2 class="main-head">To Do App</h2>
+            <div>
+                <form onsubmit="add(event)">
+                    <input type="text" placeholder="Enter Todo" id="todoInput">
+                    <input type="submit" value="Add" id="submit">
+                </form>
+                <div class="todo">
+                    <ol id="todo">
+
+                    </ol>
+                </div>
+                <div class="footer">
+
+                    <p>@ Desgine & Develop By <a href="https://github.com/Ahsan-ali001">Ahsan Ali❣️</a></p>
+
+                </div>
+            </div>
 
 
 </body>

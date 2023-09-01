@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+/* body{
     background-image: url('https://img.freepik.com/free-photo/top-view-color-palette-house-renovation-with-clipboard_23-2148815787.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +64,7 @@ button{
 }
 ol{
     background-image: url("https://w0.peakpx.com/wallpaper/689/41/HD-wallpaper-black-background-simple-thumbnail.jpg");
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
 }
@@ -73,4 +74,127 @@ li{
     font-size: 30px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
+} */
+
+
+
+body {
+    text-align: center;
+    padding: 10px;
+    background-image: url('https://img.freepik.com/premium-vector/futuristic-technology-background-gradient-modern_641286-722.jpg');
+    /* background-image: url('https://cdn.wallpapersafari.com/8/59/0V5Tqe.jpg'); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.main-head {
+    color: #cdd0f3;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    letter-spacing: px;
+    margin-top: 30px;
+    font-family: 'Black Ops One';
+}
+
+#todoInput {
+    width: 50%;
+    padding: 10px;
+    background: transparent;
+    color: #a7fade;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #8fd6ee;
+    font-size: 20px;
+    font-family: 'Black Ops One';
+    letter-spacing: 2px;
+}
+
+#submit {
+    padding: 10px 30px 10px 30px;
+    background-color: #60dfff;
+    border: 2px solid #05ffc9;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Black Ops One';
+}
+
+#submit:hover {
+    background-color: transparent;
+    border: 2px solid #fdfdfd;
+    border-radius: 20px;
+    color: rgb(255, 205, 185);
+}
+
+li {
+    color: #a7fade;
+    font-size: 20px;
+    font-family: 'Black Ops One';
+    letter-spacing: 2px;
+   
+}
+ol{
+    text-decoration: none;
+}
+
+.edit {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #a4fac5;
+    border: 3px solid #06ff27;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Black Ops One';
+    font-size: 20px;
+}
+
+.del {
+    color: #000000;
+    background-color: rgb(255, 169, 169);
+    border: 3px solid #f7df0a;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Black Ops One';
+    font-size: 20px;
+}
+
+.del:hover {
+    background-color: brown;
+    color: white;
+}
+
+.edit:hover {
+    background-color: cadetblue;
+    color: white;
+
+}
+
+.todo{
+    background-color: rgb(70, 60, 6);
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 50px 10px 60px 20px;
+    margin-bottom: 100px;
+}
+.footer{
+    position: fixed;
+    margin-top: 10px;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(27, 22, 22);
+    color: white;
+    text-align: center;
+    font-family: 'Black Ops One';
+    font-size: 25px;
+}
+a{
+    color: #fdfdfd;
+    text-decoration: none;
+}
+a:hover{
+    color: #bdaf37;
+    text-decoration: none;
 }
